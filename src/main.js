@@ -111,7 +111,7 @@ class TemplateEntityRow extends LitElement {
           .hass=${this.hass}
           .stateObj=${entity}
           @action=${this._actionHandler}
-          style="${color ? `--paper-item-icon-color: ${color}; --paper-item-icon-active-color: ${color};`:``}"
+          style="${color ? `color: ${color};`:``}"
           .overrideIcon=${icon}
           .overrideImage=${image}
           class="pointer"
